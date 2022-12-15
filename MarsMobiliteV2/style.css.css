@@ -1,0 +1,111 @@
+body {
+        background-color: white;
+    background-repeat: no-repeat;
+    background-attachment : scroll;
+    background-size: cover;
+}
+#titre {
+    color: orange;
+}
+nav  {
+    /* effet flottant */
+    text-decoration: none;           /* pas d'héritage avec effet souligné */
+    color: #ffffff;               /* couleur du texte */
+    background: #eb7d22;          /* couleur de fond */
+    height: 36px;                   /* hauteur */
+    line-height: 33px;              /* interligne */
+    padding: 0;                     /* marges intérieur */
+    font-family: sans-serif;        /* police d'écriture */
+    font-size: 13px;                /* taille du texte */
+    transition: .5s;                /* temps de transition lors du hover : une demi seconde */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+li {
+    text-align: center;
+    flex-grow: 1;
+}
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li:hover{
+    background-color: #fca45c
+}
+table tr:nth-child(odd) {
+    background-color: #fca45c;
+    text-align: center;
+    empty-cells:hide
+}
+table tr:nth-child(even) {
+    background-color: #fefdfc;
+    text-align: center;
+    empty-cells:hide
+}
+
+
+#table1, #table2{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#table3, #table4{
+    display:inline-block
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-decoration-color: #ffffff;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background-color: #eb7d22;
+    width: 500px;
+    height: 600px;
+    margin : 10px;
+    border-radius: 15px;
+    
+}
+#pub {
+    text-align: center;  
+}
+.card-image{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+}
+#TM {
+    background-image: url("https://st.depositphotos.com/1020917/4803/i/450/depositphotos_48037219-stock-photo-flying-saucer.jpg");
+    background-size: cover;
+    background-position: 0%;
+    
+}
+#IM {
+    background-image: url("https://st.depositphotos.com/1007330/4001/i/450/depositphotos_40017959-stock-photo-bus-isolated-on-white-background.jpg");
+    background-size: cover;
+}
+#pub1 {
+    background-image: url("https://st4.depositphotos.com/12985790/22157/i/450/depositphotos_221574140-stock-photo-side-view-multicultural-friends-backpacks.jpg");
+    background-size: cover;
+}
+
+#pub2{
+    background-image: url("https://st4.depositphotos.com/12985790/22157/i/450/depositphotos_221576810-stock-photo-happy-young-woman-using-smartphone.jpg");
+    background-size: cover;
+}
+#texte {
+    color: #ffffff;
+}
+/*  !!! M & M avec la tête du priemier M sur la fin du deuxième M  */
