@@ -1,0 +1,96 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment : scroll;
+    background-size: cover;
+}
+#titre {
+    color: orange;
+}
+nav  {
+    /* effet flottant */
+    text-decoration: none;           /* pas d'héritage avec effet souligné */
+    color: #ffffff;               /* couleur du texte */
+    background: #eb7d22;          /* couleur de fond */
+    height: 36px;                   /* hauteur */
+    line-height: 33px;              /* interligne */
+    padding: 0;                     /* marges intérieur */
+    font-family: sans-serif;        /* police d'écriture */
+    font-size: 13px;                /* taille du texte */
+    transition: .5s;                /* temps de transition lors du hover : une demi seconde */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+li {
+    text-align: center;
+    flex-grow: 1;
+}
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li:hover{
+    background-color: #fca45c
+}
+
+table tr:nth-child(odd) {
+    background-color: #eb7d22;
+    text-align: center;
+    empty-cells:hide
+}
+
+table tr:nth-child(even) {
+    background-color: #fefdfc;
+    text-align: center;
+    empty-cells:hide
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-decoration-color: #ffffff;
+}
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background-color: #eb7d22;
+    width: 500px;
+    height: auto;
+    margin : 10px;
+    border-radius: 15px; 
+}
+
+.box {
+    margin: 10px 0;
+    color: #fff;
+    background: linear-gradient(90deg,
+            #eb7d22 0%,
+            #eb7d22 60%,
+            rgb(255, 255, 255) 100%),
+        radial-gradient(circle, #eb7d22 0%, rgba(0, 0, 0, 1) 28%);
+    background-origin: padding-box, content-box;
+    background-repeat: no-repeat;
+}
+
+#table_legende{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
