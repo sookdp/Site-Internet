@@ -1,21 +1,21 @@
 body {
-    background-color: white;
+    background-color: #191919;
     background-repeat: no-repeat;
     background-attachment : scroll;
     background-size: cover;
 }
 #titre {
-    color: orange;
+    color: #f15025;
 }
 nav  {
     /* effet flottant */
     text-decoration: none;           /* pas d'héritage avec effet souligné */
     color: #ffffff;               /* couleur du texte */
-    background: #eb7d22;          /* couleur de fond */
+    background: #f15025;          /* couleur de fond */
     height: 36px;                   /* hauteur */
     line-height: 33px;              /* interligne */
     padding: 0;                     /* marges intérieur */
-    font-family: sans-serif;        /* police d'écriture */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        /* police d'écriture */
     font-size: 13px;                /* taille du texte */
     transition: .5s;                /* temps de transition lors du hover : une demi seconde */
 }
@@ -40,7 +40,7 @@ li:hover{
 }
 
 table tr:nth-child(odd) {
-    background-color: #eb7d22;
+    background-color: #f15025;
     text-align: center;
     empty-cells:hide
 }
@@ -70,7 +70,7 @@ table{
 .card {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
-    background-color: #eb7d22;
+    background-color: #f15025;
     width: 500px;
     height: auto;
     margin : 10px;
@@ -81,9 +81,9 @@ table{
     margin: 10px 0;
     color: #fff;
     background: linear-gradient(90deg,
-            #eb7d22 0%,
-            #eb7d22 60%,
-            rgb(255, 255, 255) 100%),
+            #f15025 0%,
+            #f15025 60%,
+            rgb(194, 104, 30) 100%),
         radial-gradient(circle, #eb7d22 0%, rgba(0, 0, 0, 1) 28%);
     background-origin: padding-box, content-box;
     background-repeat: no-repeat;
