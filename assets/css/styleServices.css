@@ -55,8 +55,7 @@ table tr:nth-child(even) {
     text-align: center;
     empty-cells:hide
 }
-
-table{
+table{ /*pour toutes les tables*/
     table-layout: auto;
     width: 100%;
     justify-content: center;
@@ -73,7 +72,7 @@ table{
     flex-wrap: wrap;
     text-decoration-color: #ffffff;
 }
-.card {
+.card { /*pour tous les Card*/
     display: grid;
     grid-template-rows: max-content 200px 1fr;
     background-color: #f15025;
@@ -102,7 +101,7 @@ table{
     font-style: oblique;
     font-weight: bold;
 }
-#titre, #texte {
-    color: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#titre, #texte { /*pout tous les texte et titre*/
+    color: #ffffff; /*couleur du texte en balnc*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*police en Calibri */
 }

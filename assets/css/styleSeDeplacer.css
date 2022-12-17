@@ -80,7 +80,7 @@ table tr:nth-child(even) {
     margin : 15px;
     border-radius: 15px;
 }
-.card img{
+.card img{ /*pour les images dans les cards*/
     background-color: rgb(0, 0, 0);
     background-size: cover;
     width: 500px;

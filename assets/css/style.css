@@ -1,6 +1,6 @@
-body {
-    background-color: #191919;
-    background-repeat: no-repeat;
+body {  /*Css génaral de la page*/
+    background-color: #191919; /*couleur de fond en noir*/
+    background-repeat: no-repeat; /*paramètres pour le fond de la page*/
     background-attachment : scroll;
     background-size: cover;
 }
@@ -8,7 +8,7 @@ html {
     box-sizing: border-box;
 }
 .titre {
-    color: #ffffff;
+    color: #ffffff; /*toute les classe titre auront ces propriétées*/
     letter-spacing: 2px;
     border-bottom: 1px solid #f15025;
 }
@@ -35,7 +35,7 @@ ul {
     display: flex;
 }
 li {
-    text-align: center;
+    text-align: center; /*texte aligné au centre*/
     flex-grow: 1;
 }
 li a {
@@ -46,24 +46,15 @@ li a {
 li:hover{
     background-color: #fca45c
 }
-table tr:nth-child(odd) {
+table tr:nth-child(odd) { 
     background-color: #fca45c;
     text-align: center;
-    empty-cells:hide
+    empty-cells:hide /*cacher les cases vides*/
 }
 table tr:nth-child(even) {
     background-color: #fefdfc;
     text-align: center;
     empty-cells:hide
-}
-#table1, #table2{
-    width: 20em;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-#table3, #table4{
-    display:inline-block
 }
 .container{
     display: flex;
@@ -76,13 +67,13 @@ table tr:nth-child(even) {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
     background-color: #f15025;
-    width: 600px;
-    height: auto;
-    margin : 5px;
+    width: 600px; /*largeur à 600 pixels*/
+    height: auto; /*hauteur en auto*/
+    margin : 5px; /*marge à 5 pixels*/
     border-radius: 15px;
     
 }
-#pub {
+#pub { /*pour tous les ID pub*/
     text-align: center;  
 }
 .card-image{
@@ -92,7 +83,7 @@ table tr:nth-child(even) {
     border-radius: 15px 15px 0 0;
 }
 #TM {
-    background-image: url("https://st2.depositphotos.com/1011081/8787/i/450/depositphotos_87879318-stock-photo-space-shuttle-leaving-earth-elements.jpg");
+    background-image: url("https://st2.depositphotos.com/1011081/8787/i/450/depositphotos_87879318-stock-photo-space-shuttle-leaving-earth-elements.jpg"); /*declaration image de fond*/
     background-size: cover;
     background-position: fixed;
 }
@@ -115,7 +106,6 @@ table tr:nth-child(even) {
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/*  !!! M & M avec la tête du priemier M sur la fin du deuxième M  */
 h2 {
     border-bottom: 1px solid #e7e7e7;
     color: #ffffff;
