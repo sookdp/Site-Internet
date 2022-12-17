@@ -5,8 +5,8 @@ body {
     background-size: cover;
     flex-wrap: wrap;
 }
-#titre {
-    color: #f15025;
+.titre {
+    color: #ffffff;
     letter-spacing: 2px;
     border-bottom: 1px solid #f15025;
 }
@@ -92,7 +92,6 @@ li:hover{
     height: auto;
     margin : 10px;
     border-radius: 15px;
-    
 }
 .reseauxsociaux img {
     background-color: #f15025;
@@ -157,4 +156,7 @@ form input {
     background: #191919;
     color: #e6e8e6;
 }
-
+#titre, #texte {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
