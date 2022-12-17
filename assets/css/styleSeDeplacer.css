@@ -82,6 +82,7 @@ table tr:nth-child(even) {
     height: 250px;
     margin-bottom: None;
     border-radius: 0 0 15px 15px;
+    overflow: hidden;
 }
 #texte {
     color: #ffffff;
