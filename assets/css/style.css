@@ -112,6 +112,10 @@ table tr:nth-child(even) {
     background-image: url("https://st4.depositphotos.com/12985790/22157/i/450/depositphotos_221576810-stock-photo-happy-young-woman-using-smartphone.jpg");
     background-size: cover;
 }
+#titre{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #texte {
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
