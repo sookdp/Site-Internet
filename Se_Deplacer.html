@@ -21,17 +21,26 @@
 	<section class="container">
         <article class="card">
             <h3>Bus</h3>
-            <p id="texte1">intra-villes</p>
+            <p id="texte1">
+				intra-villes<br>
+				<a href="#bus">En savoir plus:</a>	
+			</p>
 			<img src="https://st3.depositphotos.com/12985790/16974/i/450/depositphotos_169740324-stock-photo-stylish-girl-in-bus.jpg" alt="car">
         </article>
 		<article class="card">
             <h3>Car</h3>
-            <p id="texte1">inter-villes</p>
+            <p id="texte1">
+				inter-villes<br>
+				<a href="#car">En savoir plus:</a>	
+			</p>
 			<img src="https://static3.depositphotos.com/1000145/100/i/450/depositphotos_1007510-stock-photo-empty.jpg" alt="bus">
         </article>
 		<article class="card">
             <h3>Tramway</h3>
-            <p id="texte1">intra-villes</p>
+            <p id="texte1">
+				intra-villes<br>
+				<a href="#tram">En savoir plus:</a>	
+			</p>
 			<img src="https://static3.depositphotos.com/1000775/146/i/450/depositphotos_1462782-stock-photo-modern-tram-in-barcelona.jpg" alt="tramway">
         </article>
 	</section>
@@ -39,22 +48,29 @@
 		<article class="card">
             <h3>Bus à la demande</h3>
             <p id="texte1">
-				intra-villes
-				inter-villes
+				intra-villes<br>
+				inter-villes<br>
+				<a href="#demande">En savoir plus:</a>	
 			</p>
 			<img src="https://www.evm.ie/wp-content/uploads/2022/06/standard-ecityline2.jpg" alt="demande bus">
         </article>
 		<article class="card">
             <h3>Taxi</h3>
+			<a id="taxi"></a>
             <p id="texte1">
-				intra-villes
-				inter-villes
+				intra-villes<br>
+				inter-villes<br>
+				explication, tarifs, ilustration, horraire (7j/24h ?)
 			</p>
 			<img src="https://st4.depositphotos.com/13194036/19963/i/450/depositphotos_199630388-stock-photo-back-view-young-man-suitcase.jpg" alt="taxi">
         </article>
 		<article class="card">
             <h3>Navette</h3>
-            <p id="texte1">inter-planètes</p>
+			<a id="navette"></a>
+            <p id="texte1">
+				inter-planètes<br>
+				<p id="texte"> explication, liens vers les tarifs, ilustration, temps de trajet, services proposé a bord </p>	
+			</p>
 			<img src="https://st2.depositphotos.com/1011081/8787/i/450/depositphotos_87879318-stock-photo-space-shuttle-leaving-earth-elements.jpg" alt="navette">
         </article>	
 	</section>
@@ -70,16 +86,9 @@
 		<article class="card">
 			<h3>Lignes du réseau: </h3>
 			<p>
-				L1 : Candor - Chasma<br>
-				L2 : Schiaparelli - Fluctus<br>
-				<br>
-				<br>
-				ou
-				<br>
-				<br>
 				Bus : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20<br>
 				Car : 50, 51, 53, 64, 88, 89, 91, 150, 160, 200, 210, 211, 220, 250<br>
-				Tramway : T1, T2, T2, T4, T5<br>
+				Tramway : T1, T2, T3, T4, T5<br>
 				Bus à la demande : B1, B2, B3<br>
 				Lignes scolaires : S1, S2, S3, S4<br>
 			</p>
@@ -87,27 +96,156 @@
 		<article class="card">
 			<h3>Horaires du réseau: </h3>
 			<p>
-				Horaires Bus :<br>
-				Horaires Car :<br>
-				Horaires Tramway :<br>
-				Horaires Bus à la demande :<br>
-				Horaires Navette :<br>
+				Horaires Bus :<a href="#bus">Voir ici:</a><br>
+				Horaires Car :<a href="#car">Voir ici:</a><br>
+				Horaires Tramway :<a href="#tram">Voir ici:</a><br>
+				Horaires Bus à la demande :<a href="#demande">Voir ici:</a><br>
+				Horaires Navette :<a href="#navette">Voir ici:</a><br>
 			</p>
         </article>	
 	</section><br><br><br>	
 	<h2 class="box">Bus : </h2>
-	
+	<a id="bus"></a>
+	<table border="2" id="table">
+		<tr>
+			<td id="table_legende">Lignes : </td>
+			<td id="table_legende">L1</td>
+			<td id="table_legende">L2</td>
+			<td id="table_legende">L3</td>
+			<td id="table_legende">L4</td>
+			<td id="table_legende">L5</td>
+			<td id="table_legende">L6</td>
+			<td id="table_legende">L7</td>
+			<td id="table_legende">L8</td>
+			<td id="table_legende">L9</td>
+			<td id="table_legende">L10</td>
+		</tr>
+		<tr>
+			<td id="table_legende">Intinéraires : </td>
+			<td id="table_legende">Candor - Tartarus</td>
+			<td id="table_legende">Ophir - Amenthes</td>
+			<td id="table_legende">Hydrapsis - Candor</td>
+			<td id="table_legende">Candor - Lunae</td>
+			<td id="table_legende">Tartarus - Schiaparelli</td>
+			<td id="table_legende">Xanthe - Tantalus</td>
+			<td id="table_legende">Medusae - Candor</td>
+			<td id="table_legende">Noctis - Ultima</td>
+			<td id="table_legende">Cydonia - Olympus</td>
+			<td id="table_legende">Lunae - Chasma</td>
+		</tr>
+		<tr>
+			<td id="table_legende">Horaires : </td>
+			<td id="table_legende">Horaires L1</td>
+			<td id="table_legende">Horaires L2</td>
+			<td id="table_legende">Horaires L3</td>
+			<td id="table_legende">Horaires L4</td>
+			<td id="table_legende">Horaires L5</td>
+			<td id="table_legende">Horaires L6</td>
+			<td id="table_legende">Horaires L7</td>
+			<td id="table_legende">Horaires L8</td>
+			<td id="table_legende">Horaires L9</td>
+			<td id="table_legende">Horaires L10</td>
+
+		</tr>
+	</table>
 	<h2 class="box">Car : </h2>
+	<a id="car"></a>
+	<p id="texte">
+		<table border="2" id="table">
+			<tr>
+				<td id="table_legende">Lignes : </td>
+				<td id="table_legende">L50</td>
+				<td id="table_legende">L51</td>
+				<td id="table_legende">L64</td>
+				<td id="table_legende">L88</td>
+				<td id="table_legende">L89</td>
+				<td id="table_legende">L91</td>
+				<td id="table_legende">L160</td>
+				<td id="table_legende">L200</td>
+				<td id="table_legende">L210</td>
+				<td id="table_legende">L250</td>
+			</tr>
+			<tr>
+				<td id="table_legende">Intinéraires : </td>
+				<td id="table_legende">Candor - Chasma</td>
+				<td id="table_legende">Ophir - Olympus</td>
+				<td id="table_legende">Schiaparelli - Lunae</td>
+				<td id="table_legende">Noctis - Chasma</td>
+				<td id="table_legende">Candor - Schiaparelli</td>
+				<td id="table_legende">Candor - Tantalus</td>
+				<td id="table_legende">Medusae - Chasma</td>
+				<td id="table_legende">Candor - Ultima</td>
+				<td id="table_legende">Cydonia - Chasma</td>
+				<td id="table_legende">Lunae - Chasma</td>
+			</tr>
+			<tr>
+				<td id="table_legende">Horaires : </td>
+				<td id="table_legende">Horaires L50</td>
+				<td id="table_legende">Horaires L51</td>
+				<td id="table_legende">Horaires L64</td>
+				<td id="table_legende">Horaires L88</td>
+				<td id="table_legende">Horaires L89</td>
+				<td id="table_legende">Horaires L91</td>
+				<td id="table_legende">Horaires L160</td>
+				<td id="table_legende">Horaires L200</td>
+				<td id="table_legende">Horaires L210</td>
+				<td id="table_legende">Horaires L250</td>
 	
+			</tr>
+		</table>
+		<table border="2" id="table">
+			<tr>
+				<td id="table_legende">Lignes scolaires : </td>
+				<td id="table_legende">S1</td>
+				<td id="table_legende">S2</td>
+				<td id="table_legende">S3</td>
+				<td id="table_legende">S4</td>
+			<tr>
+				<td id="table_legende">Intinéraires : </td>
+				<td id="table_legende">Schiaparelli - Ultima</td>
+				<td id="table_legende">Ophir - Chasma</td>
+				<td id="table_legende">Schiaparelli - Tantalus</td>
+				<td id="table_legende">Noctis - Ares</td>
+			</tr>
+			<tr>
+				<td id="table_legende">Horaires : </td>
+				<td id="table_legende">Horaires S1</td>
+				<td id="table_legende">Horaires S2</td>
+				<td id="table_legende">Horaires S3</td>
+				<td id="table_legende">Horaires S4</td>
+			</tr>
+		</table>
+	</p>
 	<h2 class="box">Tramway : </h2>
-	
+	<a id="tram"></a>
+	<p id="texte">
+		<table border="2" id="table">
+			<tr>
+				<td id="table_legende">Lignes : </td>
+				<td id="table_legende">T1</td>
+				<td id="table_legende">T2</td>
+				<td id="table_legende">T3</td>
+				<td id="table_legende">T4</td>
+				<td id="table_legende">T5</td>
+			</tr>
+			<tr>
+				<td id="table_legende">Intinéraires : </td>
+				<td id="table_legende">Schiaparelli - Lycus</td>
+				<td id="table_legende">Ophir - Noachis</td>
+				<td id="table_legende">Schiaparelli - Biblis</td>
+				<td id="table_legende">Noctis - Ares</td>
+				<td id="table_legende">Biblis - Borealis</td>
+			</tr>
+			<tr>
+				<td id="table_legende">Horaires : </td>
+				<td id="table_legende">Horaires T1</td>
+				<td id="table_legende">Horaires T2</td>
+				<td id="table_legende">Horaires T3</td>
+				<td id="table_legende">Horaires T4</td>
+				<td id="table_legende">Horaires T5</td>
+			</tr>
+		</table>
+	</p>
 	<h2 class="box">Bus à la demande : </h2>
-	<p id="texte">explication, tarifs, ilustration, lignes, arrêts, horraire</p>
-
-	<h2 class="box">Taxi : </h2>
-	<p id="texte"> explication, tarifs, ilustration, horraire (7j/24h ?) </p>
-
-	<h2 class="box">Navette Terre / Mars : </h2>
-	<p id="texte"> explication, liens vers les tarifs, ilustration, temps de trajet, services proposé a bord </p>
-	
-</body> 
+	<a id="demande"></a>	
+</body>
