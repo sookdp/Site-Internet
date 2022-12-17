@@ -53,8 +53,6 @@ table tr:nth-child(even) {
     text-align: center;
     empty-cells:hide
 }
-
-
 #table1, #table2{
     width: 20em;
     margin-left: auto;
@@ -71,7 +69,6 @@ table tr:nth-child(even) {
     flex-wrap: wrap;
     text-decoration-color: #ffffff;
 }
-
 .card {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
