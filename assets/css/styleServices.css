@@ -12,12 +12,12 @@ body {
 nav  {
     /* effet flottant */
     text-decoration: none;           /* pas d'héritage avec effet souligné */
-    color: #ffffff;               /* couleur du texte */
+    color: #868080;               /* couleur du texte */
     background: #f15025;          /* couleur de fond */
     height: 36px;                   /* hauteur */
     line-height: 33px;              /* interligne */
     padding: 0;                     /* marges intérieur */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        /* police d'écriture */
+    font-family: sans-serif;        /* police d'écriture */
     font-size: 13px;                /* taille du texte */
     transition: .5s;                /* temps de transition lors du hover : une demi seconde */
 }
