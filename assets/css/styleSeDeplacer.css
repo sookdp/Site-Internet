@@ -72,18 +72,20 @@ table tr:nth-child(even) {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
     background-color: #f15025;
-    width: 400px;
-    height: 600px;
-    margin : 10px;
+    width: 500px;
+    height: auto;
+    margin : 15px;
     border-radius: 15px;
 }
 .card img{
     background-color: rgb(0, 0, 0);
-    width: 400px;
-    height: 250px;
-    margin-bottom: None;
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    margin-bottom: auto;
     border-radius: 0 0 15px 15px;
     overflow: hidden;
+    margin-top: auto;
 }
 .card1{
     display: grid;
