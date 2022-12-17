@@ -9,6 +9,9 @@ body {
     letter-spacing: 2px;
     border-bottom: 1px solid #f15025;
 }
+#title{
+    background :#f15025;
+}
 nav  {
     /* effet flottant */
     text-decoration: none;           /* pas d'héritage avec effet souligné */
