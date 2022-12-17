@@ -61,6 +61,7 @@ table{
     align-items: center;
     margin-left: 2px;
     margin-right: 2px;
+    font-size: 20px;
 }
 .container{
     display: flex;
@@ -77,6 +78,7 @@ table{
     height: auto;
     margin : 10px;
     border-radius: 15px; 
+    font-size: 20px;
 }
 
 .box {
